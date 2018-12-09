@@ -6,10 +6,10 @@ const Odoo = require('odoo-xmlrpc')
 app.listen(port, () => console.log(`Listening on port ${port}`))
 
 const odoo = new Odoo({
-  url: `http://www.ppmmm.co.id`,
-  db: `proj10_ppm`,
+  url: `http://localhost:8069`,
+  db: `proj10_react`,
   username: `admin`,
-  password: `Mnbvcxz123`
+  password: `****`
 })
 
 app.get('/event_lists', (req, res) => {
