@@ -3,28 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import _ from 'lodash';
 
-/*
-const EventList = () => (
-  <tbody>
-    <tr>
-      <td>Event Name</td>
-      <td>Start</td>
-      <td>End</td>
-    </tr>
-    <tr>
-      <td>Event Name</td>
-      <td>Start</td>
-      <td>End</td>
-    </tr>
-    <tr>
-      <td>Event Name</td>
-      <td>Start</td>
-      <td>End</td>
-    </tr>
-  </tbody>
-)
-*/
-
 class App extends Component {
 
   state = {
